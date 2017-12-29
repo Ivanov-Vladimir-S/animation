@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>An Anonymous Pen on CodePen</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html>
+<head>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <head>
+    <meta charset="utf-8">
+    <title>Формы</title>
+    <style>
+      label[for="popup"]{
+        cursor:pointer;
+      }
+      input[name="popup"]{
+        display:none;
+      }
+      input[name="popup"] + div{
+       visibility: hidden;
+        opacity: 0;
+        transition: 0.5s;
+      }
+      input[name="popup"]:checked +div{
+       visibility: visible;
+        opacity: 1;
+      }
+        input[name="popup"] + div > .text{
+        transform: translateY(-50px);
+        transition: 0.5s;
+      }
+      input[name="popup"]:checked +div >.text{
+        transform: translateY(20px);
+      }
+    </style>
+  </head>
+  <body>
+  <div class = "forma">
+     <!-- Здесь попап -->
+      <label for="popup">Открыть попап</label>
+      <input required type="checkbox" name="popup" id="popup">
+      <div class="popup">
+        <div class="text">
+          <h1>Вы предатель государства</h1>
+          <p>Вас расстреляют</p> 
+          <label for="popup"> Сдать соседа, чтобы спастись </lable>
+        </div>
+      </div>
+    <!-- попап -->
+    <div>
+  </body>
+  
+  
+</body>
+</html>
+  
+  
+
+</body>
+
+</html>
